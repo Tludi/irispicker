@@ -12,10 +12,10 @@ function resetSquareColours() {
 
 function markSquare(square) {
     var currentSquare = document.getElementById(square);
-    if (currentSquare.style.backgroundColor == "lightblue") 
+    if (currentSquare.style.backgroundColor == "black") 
         currentSquare.style.backgroundColor = "#ffffff";
     else
-        currentSquare.style.backgroundColor = "lightblue";
+        currentSquare.style.backgroundColor = "black";
     return;
 }
 
